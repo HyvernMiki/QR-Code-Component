@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    color: hsl(218, 44%, 22%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.qr {
+    border-radius: 12px;
+    height: 16rem;
+}
+
+.card {
+    background-color: white;
+    flex-direction: column;
+    padding: 16px 16px 64px 16px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    box-shadow: 5px 7px 33px -22px rgba(160, 160, 167, 1);
+}
+
+.main-content {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    max-width: 30ch;
+    font-size: 0.9rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    max-width: 21ch;
+    font-weight: 700;
+}
